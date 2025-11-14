@@ -72,7 +72,7 @@ Bot avanzado para WhatsApp • Automatización • Música • IA integrada
 ## 💻 Terminal
 <p align="center">
   <!-- Terminal estilo Windows Terminal -->
-  <svg width="920" height="280" viewBox="0 0 920 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terminal">
+  <svg width="960" height="320" viewBox="0 0 960 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terminal">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
         <stop offset="0%" stop-color="#2b2f3a"/>
@@ -82,45 +82,54 @@ Bot avanzado para WhatsApp • Automatización • Música • IA integrada
         <stop offset="0%" stop-color="#6a11cb" stop-opacity="0.25"/>
         <stop offset="100%" stop-color="#2575fc" stop-opacity="0.25"/>
       </linearGradient>
+      <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.35"/>
+      </filter>
       <style>
         .tabtext{fill:#dcdfe4;font:600 13px 'Segoe UI', Ubuntu, Roboto, sans-serif}
         .mono{fill:#E5E7EB;font:500 15px 'Fira Code', 'Cascadia Code', Consolas, monospace}
       </style>
     </defs>
     <!-- ventana -->
-    <rect x="0" y="0" width="920" height="280" rx="10" fill="url(#bg)"/>
+    <rect x="0" y="0" width="960" height="320" rx="12" fill="url(#bg)" filter="url(#shadow)"/>
     <!-- barra superior -->
-    <rect x="0" y="0" width="920" height="40" rx="10" fill="#262a36"/>
+    <rect x="0" y="0" width="960" height="44" rx="12" fill="#262a36"/>
+    <!-- pestaña inactiva -->
+    <path d="M14,44 L14,20 a8,8 0 0 1 8,-8 h168 a8,8 0 0 1 8,8 v24 Z" fill="#2b2f3d"/>
+    <text x="28" y="29" class="tabtext" opacity="0.65">powershell</text>
     <!-- pestaña activa -->
-    <path d="M10,40 L10,18 a8,8 0 0 1 8,-8 h200 a8,8 0 0 1 8,8 v22 Z" fill="#303545"/>
-    <text x="26" y="28" class="tabtext">rich@richturn-01: ~</text>
+    <path d="M198,44 L198,20 a8,8 0 0 1 8,-8 h220 a8,8 0 0 1 8,8 v24 Z" fill="#303545"/>
+    <text x="214" y="29" class="tabtext">joel@dev: ~</text>
+    <!-- plus y menú -->
+    <rect x="448" y="14" width="16" height="16" rx="3" fill="#3a3f51"/>
+    <text x="452" y="26" class="tabtext">+</text>
+    <rect x="472" y="14" width="16" height="16" rx="3" fill="#3a3f51"/>
+    <text x="476" y="26" class="tabtext">⋮</text>
     <!-- botones ventana -->
-    <circle cx="870" cy="20" r="6" fill="#3a3f51"/>
-    <rect x="842" y="14" width="12" height="12" rx="2" fill="#3a3f51"/>
-    <rect x="892" y="14" width="12" height="12" rx="2" fill="#3a3f51"/>
+    <circle cx="912" cy="22" r="6" fill="#3a3f51"/>
+    <rect x="884" y="16" width="12" height="12" rx="2" fill="#3a3f51"/>
+    <rect x="934" y="16" width="12" height="12" rx="2" fill="#3a3f51"/>
     <!-- fondo decorativo -->
-    <ellipse cx="700" cy="200" rx="260" ry="140" fill="url(#blur)"/>
-    <ellipse cx="240" cy="180" rx="220" ry="120" fill="url(#blur)"/>
+    <ellipse cx="720" cy="230" rx="300" ry="160" fill="url(#blur)"/>
+    <ellipse cx="260" cy="210" rx="260" ry="140" fill="url(#blur)"/>
     <!-- prompt -->
-    <text x="24" y="100" class="mono" fill="#7CFC00">rich</text>
-    <text x="64" y="100" class="mono" fill="#E5E7EB">@</text>
-    <text x="78" y="100" class="mono" fill="#7CFC00">richturn-01</text>
-    <text x="168" y="100" class="mono" fill="#E5E7EB">:</text>
-    <text x="180" y="100" class="mono" fill="#5EA1F7">~</text>
-    <text x="196" y="100" class="mono" fill="#E5E7EB">$</text>
-    <text x="24" y="128" class="mono" fill="#E5E7EB">whoami</text>
-    <text x="24" y="156" class="mono" fill="#B3E6B5">Joel — Developer Full‑stack en progreso 🚀</text>
-    <text x="24" y="186" class="mono" fill="#E5E7EB">skills --top</text>
-    <text x="24" y="214" class="mono" fill="#B3E6B5">JavaScript | Node.js | React | Python | Bots | Automatización</text>
+    <text x="24" y="110" class="mono" fill="#7CFC00">joel</text>
+    <text x="64" y="110" class="mono" fill="#E5E7EB">@</text>
+    <text x="78" y="110" class="mono" fill="#7CFC00">dev</text>
+    <text x="106" y="110" class="mono" fill="#E5E7EB">:</text>
+    <text x="118" y="110" class="mono" fill="#5EA1F7">~</text>
+    <text x="134" y="110" class="mono" fill="#E5E7EB">$</text>
+    <text x="24" y="138" class="mono" fill="#E5E7EB">whoami</text>
+    <text x="24" y="164" class="mono" fill="#B3E6B5">Joel — Developer Full‑stack en progreso 🚀</text>
+    <text x="24" y="194" class="mono" fill="#E5E7EB">skills --top</text>
+    <text x="24" y="220" class="mono" fill="#B3E6B5">JavaScript | Node.js | React | Python | Bots | Automatización</text>
+    <text x="24" y="248" class="mono" fill="#E5E7EB">now</text>
+    <text x="24" y="274" class="mono" fill="#B3E6B5">Construyendo Pufbot (Kirby Bot) + proyectos creativos ✨</text>
     <!-- cursor -->
-    <rect x="212" y="88" width="10" height="4" fill="#E5E7EB"/>
+    <rect x="146" y="98" width="10" height="4" fill="#E5E7EB"/>
   </svg>
 </p>
 
-```bash
-joel@dev:~$ now
-Construyendo Pufbot (Kirby Bot) + proyectos creativos ✨
-```
 
 <details>
 <summary><strong>🧪 Comandos extra</strong></summary>
@@ -217,4 +226,5 @@ Facebook: https://www.facebook.com/joeldavid.dearcoserrano.3
 ## ✨ Curiosidad final
 > “El código es el poder de crear mundos desde cero.” 🌌  
 Gracias por visitar mi perfil 💛
+
 
