@@ -10,6 +10,12 @@
   <img src="https://img.shields.io/badge/Code-Love-FF69B4?style=for-the-badge">
 </p>
 
+<p align="center">
+  <!-- Contador de visitas -->
+  <img src="https://komarev.com/ghpvc/?username=JDProgramer802&style=for-the-badge&color=blueviolet" alt="visitas"/>
+  <img src="https://visitcount.itsvg.in/api?id=JDProgramer802&label=Visitas&icon=0&color=6" alt="visitcount"/>
+</p>
+
 ---
 
 ## 🧑‍💻 Sobre mí
@@ -53,18 +59,65 @@ Bot avanzado para WhatsApp • Automatización • Música • IA integrada
 
 ---
 
+## 🗺️ Mapa de visitantes
+<p align="center">
+  <!-- Mapa de visitantes (puede requerir configuración adicional en el repo de perfil) -->
+  <img src="https://visitormap.vercel.app/api?username=JDProgramer802&theme=light" alt="visitor map"/>
+  
+  <!-- Si no carga, se mostrará solo el contador arriba. -->
+</p>
+
+---
+
 ## 💻 Terminal
-<p>
-  <img src="https://svg-banners.vercel.app/api?type=glitch&text1=%3E%20joel%40dev%3A~$&width=900&height=140" alt="banner">
+<p align="center">
+  <!-- Terminal estilo Windows Terminal -->
+  <svg width="920" height="280" viewBox="0 0 920 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terminal">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#2b2f3a"/>
+        <stop offset="100%" stop-color="#1f2330"/>
+      </linearGradient>
+      <linearGradient id="blur" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#6a11cb" stop-opacity="0.25"/>
+        <stop offset="100%" stop-color="#2575fc" stop-opacity="0.25"/>
+      </linearGradient>
+      <style>
+        .tabtext{fill:#dcdfe4;font:600 13px 'Segoe UI', Ubuntu, Roboto, sans-serif}
+        .mono{fill:#E5E7EB;font:500 15px 'Fira Code', 'Cascadia Code', Consolas, monospace}
+      </style>
+    </defs>
+    <!-- ventana -->
+    <rect x="0" y="0" width="920" height="280" rx="10" fill="url(#bg)"/>
+    <!-- barra superior -->
+    <rect x="0" y="0" width="920" height="40" rx="10" fill="#262a36"/>
+    <!-- pestaña activa -->
+    <path d="M10,40 L10,18 a8,8 0 0 1 8,-8 h200 a8,8 0 0 1 8,8 v22 Z" fill="#303545"/>
+    <text x="26" y="28" class="tabtext">rich@richturn-01: ~</text>
+    <!-- botones ventana -->
+    <circle cx="870" cy="20" r="6" fill="#3a3f51"/>
+    <rect x="842" y="14" width="12" height="12" rx="2" fill="#3a3f51"/>
+    <rect x="892" y="14" width="12" height="12" rx="2" fill="#3a3f51"/>
+    <!-- fondo decorativo -->
+    <ellipse cx="700" cy="200" rx="260" ry="140" fill="url(#blur)"/>
+    <ellipse cx="240" cy="180" rx="220" ry="120" fill="url(#blur)"/>
+    <!-- prompt -->
+    <text x="24" y="100" class="mono" fill="#7CFC00">rich</text>
+    <text x="64" y="100" class="mono" fill="#E5E7EB">@</text>
+    <text x="78" y="100" class="mono" fill="#7CFC00">richturn-01</text>
+    <text x="168" y="100" class="mono" fill="#E5E7EB">:</text>
+    <text x="180" y="100" class="mono" fill="#5EA1F7">~</text>
+    <text x="196" y="100" class="mono" fill="#E5E7EB">$</text>
+    <text x="24" y="128" class="mono" fill="#E5E7EB">whoami</text>
+    <text x="24" y="156" class="mono" fill="#B3E6B5">Joel — Developer Full‑stack en progreso 🚀</text>
+    <text x="24" y="186" class="mono" fill="#E5E7EB">skills --top</text>
+    <text x="24" y="214" class="mono" fill="#B3E6B5">JavaScript | Node.js | React | Python | Bots | Automatización</text>
+    <!-- cursor -->
+    <rect x="212" y="88" width="10" height="4" fill="#E5E7EB"/>
+  </svg>
 </p>
 
 ```bash
-joel@dev:~$ whoami
-Joel — Developer Full‑stack en progreso 🚀
-
-joel@dev:~$ skills --top
-JavaScript  | Node.js | React | Python | Bots | Automatización
-
 joel@dev:~$ now
 Construyendo Pufbot (Kirby Bot) + proyectos creativos ✨
 ```
@@ -105,10 +158,57 @@ Facebook: https://www.facebook.com/joeldavid.dearcoserrano.3
 
 ---
 
+## 🐍 Snake contributions
+<div align="center">
+  <!-- Requiere configurar la acción de Platane/snk en el repo de perfil -->
+  <img src="https://github.com/JDProgramer802/JDProgramer802/blob/output/github-contribution-grid-snake.svg" alt="snake" />
+</div>
+
+---
+
+## 🧩 Lenguajes por repos específicos
+
+### kirby-dream
+<p>
+  <img src="https://img.shields.io/github/languages/top/JDProgramer802/kirby-dream?color=1f6feb" />
+  <img src="https://img.shields.io/github/languages/count/JDProgramer802/kirby-dream?color=00C853" />
+  <img src="https://img.shields.io/github/repo-size/JDProgramer802/kirby-dream?color=ff9800" />
+</p>
+
+<div>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=JDProgramer802&repo=kirby-dream&theme=tokyonight" />
+</div>
+
+<!-- Agrega más repos repetiendo el bloque superior cambiando el nombre del repo -->
+
+---
+
+## 🏅 Logros / Certificados
+
+<p>
+  <img src="https://placehold.co/120x80?text=Cert+1" alt="cert1" />
+  <img src="https://placehold.co/120x80?text=Cert+2" alt="cert2" />
+  <img src="https://placehold.co/120x80?text=Cert+3" alt="cert3" />
+</p>
+
+> Reemplaza las imágenes por tus certificados (PNG/JPG) o links de plataformas (Coursera, Platzi, etc.).
+
+---
+
 ## 🌐 Mis redes
 <p align="center">
   <a href="https://www.facebook.com/joeldavid.dearcoserrano.3" target="_blank">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
+  </a>
+</p>
+
+## ✉️ Contacto rápido
+<p align="center">
+  <a href="https://www.facebook.com/joeldavid.dearcoserrano.3" target="_blank">
+    <img src="https://img.shields.io/badge/Chat%20en%20Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
+  </a>
+  <a href="mailto:contacto.joel.dev+gh@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Enviar%20Correo-D14836?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
 </p>
 
