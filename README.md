@@ -1,99 +1,117 @@
-# ⚡ Joel David — Cyberpunk Dev Terminal
+# ⚡ Terminal Cyberpunk — Menú Interactivo (README)
 
-```
-┌───────────────────────────────┐
-│  INITIALIZING PROFILE...       │
-├───────────────────────────────┤
-│ > STATUS: ONLINE               │
-│ > MODE: CYBERPUNK DEVELOPER ⚡  │
-│ > VERSION: 2.0                 │
-└───────────────────────────────┘
-```
-
-## 🔮 Main Menu
-- **🧬 About Me**
-- **💻 Tech Stack**
-- **⚡ Projects**
-- **📡 Contact**
-- **🌐 Socials**
+Bienvenido a tu **interfaz cyberpunk neon**, diseñada para lucir épica y ser totalmente interactiva desde consola.
 
 ---
 
-## 🧬 About Me
-Soy **Joel**, desarrollador apasionado por  
-la automatización, bots, sistemas interactivos y experiencias digitales futuristas.
+## 🧬 **⚡ Neo-Terminal 3.0**
 
-💠 *“Build fast, break limits.”*
+```ascii
+███████╗███████╗███╗   ██╗ ██████╗ 
+██╔════╝██╔════╝████╗  ██║██╔════╝ 
+█████╗  █████╗  ██╔██╗ ██║██║  ███╗
+██╔══╝  ██╔══╝  ██║╚██╗██║██║   ██║
+██║     ███████╗██║ ╚████║╚██████╔╝
+╚═╝     ╚══════╝╚═╝  ╚═══╝ ╚═════╝ 
+```
+
+> 💾 **Desarrollado por:** Joel  
+> 📧 **Contacto:** joeldavidddearcos@gmail  
+> 🌐 Inspirado en diseño *neon-cyberpunk*
 
 ---
 
-## 💻 Tech Stack
-```
-> LANGUAGES:
-  - JavaScript / TypeScript
-  - Node.js
-  - Python
-  - HTML / CSS
-
-> TOOLS:
-  - Git / GitHub
-  - VS Code
-  - Figma
-  - Docker
-
-> SPECIALITY:
-  ⚙ Bots – IA – Sistemas automáticos
-```
-
----
-
-## ⚡ Featured Projects
-
-### ⭐ Kirby Dream Bot
-Bot modular de WhatsApp con:
-- Economía  
-- Casino  
-- Stickers  
-- Panel web  
-- Eventos especiales  
-
-```
-> STATUS: ACTIVE  
-> MODE: KAWAII + ADVANCED AUTOMATION
-```
-
----
-
-## 🛰 Terminal Showcase
+## 🚀 **Menú Interactivo (Ejemplo en Node.js)**
 
 ```bash
-joel@github:~$ run profile
-Loading cyberpunk-ui...
-Loading neon-gradient...
-Loading animated-terminal...
-Profile loaded successfully ✓
+npm install inquirer chalk gradient-string figlet
+```
 
-joel@github:~$ echo "Welcome to my universe"
-Welcome to my universe ✨
+```js
+#!/usr/bin/env node
+import inquirer from "inquirer";
+import chalk from "chalk";
+import gradient from "gradient-string";
+import figlet from "figlet";
+
+function title() {
+  console.log(
+    gradient.pastel(
+      figlet.textSync("NEO-TERMINAL", { horizontalLayout: "full" })
+    )
+  );
+}
+
+async function menu() {
+  title();
+
+  const answer = await inquirer.prompt([
+    {
+      type: "list",
+      name: "option",
+      message: chalk.cyan("⚡ Selecciona una opción:"),
+      choices: [
+        "📁 Ver archivos del sistema",
+        "🧠 Ejecutar IA local",
+        "🛠 Configuración avanzada",
+        "❌ Salir",
+      ],
+    },
+  ]);
+
+  switch (answer.option) {
+    case "📁 Ver archivos del sistema":
+      console.log(chalk.green("Mostrando archivos..."));
+      break;
+
+    case "🧠 Ejecutar IA local":
+      console.log(chalk.yellow("Iniciando IA..."));
+      break;
+
+    case "🛠 Configuración avanzada":
+      console.log(chalk.magenta("Abriendo configuración..."));
+      break;
+
+    case "❌ Salir":
+      console.log(chalk.red("Saliendo..."));
+      process.exit(0);
+  }
+
+  setTimeout(menu, 1000);
+}
+
+menu();
 ```
 
 ---
 
-## 🌐 Contact
-📩 **Email:** joeldavidddearcos@gmail.com  
-🐙 **GitHub:** https://github.com/JDProgramer802  
+## 🌈 Estilo Visual
+
+- 🎨 **Neon cyan + magenta**
+- 🔥 Títulos con **figlet**
+- 🌌 Gradientes con **gradient-string**
+- 🧩 Menú animado con **inquirer**
 
 ---
 
-## 🌀 Final Message
-✨ *Si te gusta este estilo futurista, quédate. Apenas estamos empezando el viaje.*  
+## 🛠 Como Ejecutarlo
 
+1. Crea un archivo `terminal.js`
+2. Copia el código anterior
+3. Dale permisos:
 
-# 🌐 Contacto
+```bash
+chmod +x terminal.js
+```
 
-💌 **Correo:** joeldavidddearcos@gmail.com\
-🐱 **GitHub:** https://github.com/JDProgramer802
+4. Ejecuta:
 
-------------------------------------------------------------------------
-:::
+```bash
+node terminal.js
+```
+
+---
+
+## ⭐ ¿Quieres agregar animaciones, sonidos o HUD holográfico?  
+Solo dime y puedo generar una **versión 4.0** aún más brutal 🔥👾
 
